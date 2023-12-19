@@ -1,0 +1,185 @@
+body,
+div,
+h1,
+h2,
+ul,
+p,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+body {
+  background-color: rgba(0, 168, 255, 0.2);
+  color: #576574;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #151819;
+}
+
+.toggle-box {
+  margin: 40px auto 0;
+  width: 1200px;
+  text-align: right;
+}
+
+.toggle {
+  background-color: #545c5e;
+  color: #fafcff;
+  height: 30px;
+  width: 40px;
+  border-radius: 7px;
+}
+
+.toggle:hover {
+  background-color: inherit;
+  border: 2px solid #545c5e;
+  color: #545c5e;
+  transition: all 0.2s ease-out;
+}
+
+.dark-mode .wrapper {
+  background-color: #2d3436;
+}
+
+.wrapper {
+  margin: 65px auto;
+  padding: 45px 80px;
+  box-sizing: border-box;
+  width: 1200px;
+  background-color: #fafcff;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 10px 0px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-container h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.add-btn {
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #797979;
+  background-color: #dcdcda;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  transition: all 0.2s ease-out;
+}
+
+.add-btn:hover {
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+  color: #ee5253;
+}
+
+.editor-container {
+  width: 100%;
+  margin-top: 0.8em;
+}
+
+.memo-title {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  font-size: 20px;
+  border: 1px solid #dadde6;
+  border-radius: 4px;
+  color: #00a8ff;
+}
+.memo-title::placeholder {
+  color: #999999;
+}
+.memo-title:focus {
+  outline: 1px solid #dadde6;
+}
+
+#editor {
+  background: #fff;
+}
+
+.memo-list-section {
+  margin-top: 40px;
+}
+
+.delete-btn-container {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.delete-btn-container button {
+  width: 44px;
+  height: 44px;
+  font-size: 22px;
+  border-radius: 50%;
+  color: #797979;
+  background-color: #dcdcda;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  transition: all 0.2s ease-out;
+}
+
+.delete-btn-container button:hover {
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+  color: #ee5253;
+}
+
+.memo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.memo-list li {
+  width: 500px;
+  padding: 18px 20px;
+  box-sizing: border-box;
+  color: aliceblue;
+  background-color: #00a8ff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: all 0.2s ease-out;
+}
+
+.memo-list li:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 10px;
+}
+
+.memo-list button {
+  align-self: flex-end;
+  font-size: 16px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  color: #797979;
+  background-color: #89d8ff;
+  box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+  transition: all 0.2s ease-out;
+}
+
+.memo-list button:hover {
+  box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+  color: #ee5253;
+  background-color: #a3e0ff;
+}
